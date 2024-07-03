@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "16.2.0",
+    "puppeteer-core": "^19.11.1",
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
