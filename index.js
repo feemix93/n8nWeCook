@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 // Example route
 app.get("/fetchImage", async (req, res) => {
   const url = req.query.url;
-
+  console.log("fetching");
   try {
     const imageUrl = await fetchFeaturedImageUrl(url);
     console.log(imageUrl);
